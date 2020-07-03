@@ -23,3 +23,12 @@ about.addEventListener('click', function (e) {
         element.classList.add("active");
     }
 });
+
+const abtns = document.querySelectorAll('.question-btn');
+
+abtns.forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+        const question = e.currentTarget.parentElement.parentElement;
+        question.classList.toggle('show-text');
+    });
+});
