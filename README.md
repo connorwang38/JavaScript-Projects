@@ -17,6 +17,7 @@ Similar to the autocomplete, this search bar displays potential values, but vani
 ## Login
 ## Login 2
 ## Lorem Ipsum Generator
+This app will generate bodies of filler text based on a query of # of desired paragraphs
 ## Menu
 ## Modal
 ## Navbar
